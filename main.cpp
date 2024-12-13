@@ -1,12 +1,12 @@
 int main() 
 {
     AlberoBin<int> albero;
-    albero.inserisciRadice(3);
+    albero.inserisciRadice(5);
     cout << "Inserisco la radice-> " << endl;
     albero.mostraAlbero();
-    albero.aggiungiSinistro(0, 12);
-    albero.aggiungiDestro(0, 26);
-    albero.aggiungiSinistro(1, 34);
+    albero.aggiungiSinistro(0, 7);
+    albero.aggiungiDestro(0, 14);
+    albero.aggiungiSinistro(1, 24);
     cout << "Inserisco i figli->" << endl;
     albero.mostraAlbero();
     int nodoCorrente = 0;
